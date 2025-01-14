@@ -1,3 +1,131 @@
-h1{
-    text-align: center;
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+    font-size: 2.3cqmax;
+    color:white;
+}
+
+.navbar li:hover{
+    cursor: pointer;
+    color: violet;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+ul{
+    display: flex;
+    gap:11%;
+    align-items: center;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+
+.navbar h1{
+    color: white;
+}
+
+.navbar button{
+    background: inherit;
+    border: 1px solid violet;
+    border-radius: 12px;
+    font-size: 2.3cqmax;
+    color:white;
+    padding: 8px 10px 8px 10px;
+    transition: 0.5s;
+}
+
+.navbar button:hover{
+    cursor: pointer;
+    background-color: purple;
+}
+
+.header{
+    background: linear-gradient(black, #15071f, #2f0656);
+}
+
+.section1{
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1un{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color:white;
+}
+
+.section1unImage{
+    display:flex;
+    gap:5%;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 45%; /* Rendre le conteneur circulaire */
+    background: radial-gradient(circle, black 35%, violet 100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+    object-fit: cover;
+
+
+}
+
+.image-container:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.image-container img:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.35);
+    border-radius: 90%;
+
+
+}
+
+.image{
+    background-color: blue;
+    height: 150px;
+}
+
+
+.section1deux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color:white;
+    overflow: hidden;
+}
+
+.section1unImage img{
+    object-fit: cover;
 }
